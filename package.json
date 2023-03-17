@@ -1,0 +1,23 @@
+{
+  "name": "Noiceland",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hitaro2k/Noiceland.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hitaro2k/Noiceland/issues"
+  },
+  "homepage": "https://github.com/hitaro2k/Noiceland#readme",
+  "devDependencies": {
+    "just-validate": "^4.2.0"
+  }
+}

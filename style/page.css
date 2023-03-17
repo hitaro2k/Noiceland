@@ -93,9 +93,9 @@ li{
     flex-direction: column;
     width: 100%;
     height: 100%;
-    
+    padding-top: 50px;
+    padding-bottom: 200px;
 }
-
 .header__container{
     display: flex;
     flex-direction: row;
@@ -110,343 +110,52 @@ li{
     gap: 0px 20px;
 }
 
-.promo__container{
-    display: flex;
-    flex-direction: row;
-    padding-top: 60px;
-    padding-bottom: 35px;
-}
-.promo-description{
+/* ! */
+.container{
     display: flex;
     flex-direction: column;
-    padding-left: 50px;
 }
-.promo-description__header{
-    font-size: 10px;
-    letter-spacing: 0.01em;
+.image{
+    margin: 0 auto;
+}
+.category{
+    padding-left: 30px;
+    font-family: 'Libre Franklin';
+    font-weight: 400;
+    font-size: 12px;
     text-transform: uppercase;
     color: #999999;
-}
-.promo-description__title{
-    font-size: 36px;
-    text-transform: uppercase;
-    color: #000000;
-    font-weight: 400
-}
-.promo-desctiption__subtitle{
-    font-size: 16px;
-    color: #666666;
-    font-family: 'Source Serif Pro';
-}
-.promo-desciption__author{
-    text-transform: uppercase;
-    letter-spacing: 0.01em;
-    font-weight: 700;
-}
 
-@media(max-width:1240px){
-    .latest-wrapper{
-        justify-content: center;
-    }
-    .actual__container{
-        justify-content: center;
-        gap: 0px 145px;
-    }
 }
-
-@media(max-width:1180px){
-   .promo-image{
-    width: 500px;
-   }
+.title{
+    font-weight: 400;
+    padding-top: 50px;
+    padding-left: 30px;
 }
-@media(max-width:1024px){
-    .promo-image{
-        width: 425px;
-    }
-}
-@media(max-width:980px){
-    .promo-description__title{
-        font-size: 20px;
-        width: 240px;
-    }
-    .promo-desctiption__subtitle{
-        font-size: 12px;
-    }
-}
-@media(max-width:768px){
-    .promo-image {
-        width: 200px;
-        height: 200px;
-    }
-    .promo__container{
-        align-items: center;
-    }
+.content{
+    padding-left: 30px;
 }
 @media(max-width:767.98px){
-    .promo__container{
-        flex-direction: column;
-    }
-    .promo-image {
-        width: 100%;
-        height: 100%;
-    }
-    .promo-description{
-        padding-left: 0px;
+    .image{
+        width: 500px;
     }
 }
-
-.actual__container{
-    padding-bottom: 100px;
-    border-bottom: 2px solid #E6E6E6;
-}
-
-.actual__content{
-    width: 400px;
-    height: 400px;
-    margin-top: 35px;
-}
-
-.actual-description__header{
-    font-size: 10px;
-    letter-spacing: 0.01em;
-    text-transform: uppercase;
-    color: #999999;
-}
-.actual-description__title{
-    font-family: 'Tenor Sans';
-    font-weight: 400;
-    font-size: 20px;
-    text-transform: uppercase;
-    color: #000000;
-}
-.actual-description__author{
-    text-transform: uppercase;
-    letter-spacing: 0.01em;
-    font-weight: 700;
-}
-            
-
-.actual__container{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    padding-top: 35px;
-}
-
-.latest__container{
-    padding-top: 50px;
-}
-@media(max-width:426px){
-    .content-image{
-        width: 300px;
-    }
+@media(max-width:570px){
+    .image{
+        width: 400px;
+    } 
     .menu__list-item{
         display: none;
     }
-    .actual-description__title{
-        font-size: 16px;
-        width: 255px;
-    }
-    .actual__content{
-        width: 305px;
-    }
 }
-@media(max-width:326px){
-      .content-image{
-        width: 275px;
-    }
-   
-}
-
-
-/* ! */
-.promo-link{
-    display: flex;
-    flex-direction: row;
-}
-.latest__container{
-    display: flex;
-    flex-direction: column;
-    padding-bottom: 100px;
-    border-bottom: 2px solid #E6E6E6;
-}
-.latest-wrapper{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-}
-.latest-wrapper__content{
-    width: 300px;
-    height: 390px;
-    padding-top: 40px;
-}
-
-.latest__content-image{
-    width: 285px;
-    height: 187px;
-}
-.latest__content-description__title{
-    font-family: 'Tenor Sans';
-    font-weight: 400;
-    font-size: 20px;
-    text-transform: uppercase;
-}
-.latest-header{
-    font-family: 'Libre Franklin';
-    font-weight: 400;
-    font-size: 10px;
-    letter-spacing: 1px;
-    text-transform: uppercase;
-    color: #999999;
-}
-.latest__content-description__header{
-    font-family: 'Libre Franklin';
-    font-weight: 400;
-    font-size: 10px;
-    text-transform: uppercase;
-    color: #999999;
-}
-.latest__content-description{
-    width: 285px;
-}
-.latest__content-description__author{
-    font-family: 'Libre Franklin';
-    font-weight: 700;
-    font-size: 10px;
-    letter-spacing: 0.01em;
-    text-transform: uppercase;
-    color: #000000;
-}
-
-.latest__button-add-content{
-    margin: 0 auto;
-    margin-top: 65px;
-    width: 205px;
-    height: 55px;
-    background: #FFFFFF;
-    border: 1px solid #000000;
-    border-radius: 0px;
-    letter-spacing: 0.01em;
-    text-transform: uppercase;
-    font-family: 'Libre Franklin';
-    font-size: 12px;
-    cursor: pointer;
-}
-
-
-/* ! */
-.featured__container{
-    padding-top: 90px;
-    display: flex;
-    flex-direction: column;
-    padding-bottom: 90px;
-}
-
-.featured-header{
-    font-family: 'Libre Franklin';
-    font-weight: 400;
-    font-size: 10px;
-    letter-spacing: 0.01em;
-    text-transform: uppercase;
-    color: #999999;
-}
-.featured__content-wrapper{
-    width: 610px;
-    height: 570px;
-}
-.featured__content{
-    display: flex;
-    flex-direction: column;
-}
-.featured__content-top{
-    display: flex;
-    flex-direction: row;
-    gap: 0px 20px;
-}
-.featured__content-bottom{
-    display: flex;
-    flex-direction: row;
-    padding-top: 25px;
-    gap: 0px 20px;
-}
-.featured__content-image{
-    width: 590px;
-    height: 385px;
-}
-.featured__content__header{
-    font-family: 'Libre Franklin';
-    font-weight: 400;
-    font-size: 10px;
-    line-height: 12px;
-    letter-spacing: 0.01em;
-    text-transform: uppercase;
-    color: #999999;
-}
-.featured__content__title{
-    font-family: 'Tenor Sans';
-    font-weight: 400;
-    font-size: 19px;
-    text-transform: uppercase;
-    color: #000000;
-}
-.featured__content__author{
-    font-family: 'Libre Franklin';
-    font-weight: 700;
-    font-size: 10px;
-    letter-spacing: 0.01em;
-    text-transform: uppercase;
-    color: #000000;
-}
-
-@media(max-width:1220px){
-    .featured__content-image {
-        width: 500px;
-        height: 330px;
-    }
-    .featured__content-wrapper{
-        width: 500px;
-        height: 570px;
-    }
-}
-
-@media(max-width:1050px){
-    .featured__content-image {
-        width: 350px;
-        height: 250px;
-    }
-    .featured__content-wrapper{
-        width: 350px;
-    }
-}
-@media(max-width:768px){
-    .featured__content-image {
-        width: 400px;
-        height: 290px;
-    }
-    
-    .featured__content-wrapper{
-        width: 410px;
-    }
-    .featured__content-top{
-        flex-direction: column
-    }
-    .featured__content-bottom{
-        flex-direction: column
-    }
-    .featured__content{
-        align-items: center;
-    }
-}
-@media(max-width:470px){
-    .featured__content-image{
-        width: 285px;
-        height: 187px;
-    }
-    .featured__content-wrapper {
+@media(max-width:430px){
+    .image{
         width: 300px;
     }
+    .title{
+        padding-left: 15px;
+    }
 }
-
 .footer{
     width: 100%;
     height: 100%;
