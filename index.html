@@ -6,26 +6,47 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Noiceland</title>
 
-    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="/style/style.min.css">
 </head>
 <body>
-    <header class="header">
-        <div class="header__container">
-            <img src="img/logo.svg" alt="" class="logo">
-            <ul class="menu__list-item">
-                <li class="list-item"><a href="#">Home</a></li>
-                <li class="list-item"><a href="#">Latest</a></li>
-                <li class="list-item"><a href="#">About</a></li>
+        <header class="header">
+            <div class="header__container">
+                <img src="img/logo.svg" alt="" class="logo">
+                <ul class="menu__list-item">
+                    <li class="list-item"><a href="#">Home</a></li>
+                    <li class="list-item"><a href="#latest">Latest</a></li>
+                    <li class="list-item"><a href="/about.html">About</a></li>
+                </ul>
+                <div class="menu-btn">
+                    <span id="menu-span"></span>
+                    <span id="menu-span"></span>
+                    <span id="menu-span"></span>
+                </div>
+            </div>
+        </header>
+
+        <div class="menu-burger__wrapper">
+            <nav>
+            <ul class="menu--burger-list">
+                <li class="menu--burger-item">
+                    <a class="menu--burger-item" href="#">Home</a>
+                </li>
+                <li class="menu--burger-item">
+                    <a class="menu--burger-item" href="#latest">Latest</a>
+                </li>
+                <li class="menu--burger-item">
+                    <a class="menu--burger-item" href="/about.html">About</a>
+                </li>
             </ul>
+            </nav>
         </div>
-    </header>
-    <main class="main">
 
-
+        <main class="main">
+            
         <!-- ! Promo -->
         <div class="promo__container">
             <a href="/page.html" class="promo__container">
-                <img src="img/IMAGE.png" alt="" class="promo-image">
+                <img src="img/image.webp" alt="" class="promo-image">
 
                 <div class="promo-description">
                     <p class="promo-description__header">Illustration</p>
@@ -40,7 +61,7 @@
         <!-- ! Actual -->
         <section  class="actual__container">
            <a href="#" class="actual__content" id="" data-count="">
-            <img src="img/IMAGE (1).png" alt="image" class="content-image">
+            <img src="img/image-1.webp" alt="image" class="content-image">
 
             <div class="actual-description">
                 <p class="actual-description__header">Photography</p>
@@ -50,7 +71,7 @@
            </a>
 
            <a href="#" class="actual__content" id="" data-count="">
-            <img src="img/IMAGE (2).png" alt="image" class="content-image">
+            <img src="img/image-2.webp" alt="image" class="content-image">
 
             <div class="actual-description">
                 <p class="actual-description__header">Photography</p>
@@ -60,7 +81,7 @@
            </a>
 
            <a href="#" class="actual__content" id="" data-count="">
-            <img src="img/IMAGE (3).png" alt="image" class="content-image">
+            <img src="img/image-3.webp" alt="image" class="content-image">
 
             <div class="actual-description">
                 <p class="actual-description__header">Photography</p>
@@ -70,7 +91,7 @@
            </a>
 
            <a href="#" class="actual__content" id="" data-count="">
-            <img src="img/IMAGE (4).png" alt="image" class="content-image">
+            <img src="img/image-4.webp" alt="image" class="content-image">
 
             <div class="actual-description">
                 <p class="actual-description__header">Interactive Design</p>
@@ -80,7 +101,7 @@
            </a>
 
            <a href="#" class="actual__content" id="" data-count="">
-            <img src="img/IMAGE (5).png" alt="image" class="content-image">
+            <img src="img/image-5.webp" alt="image" class="content-image">
 
             <div class="actual-description">
                 <p class="actual-description__header">Graphic Design</p>
@@ -90,7 +111,7 @@
            </a>
 
            <a href="#" class="actual__content" id="" data-count="">
-            <img src="img/IMAGE (6).png" alt="image" class="content-image">
+            <img src="img/image-6.webp" alt="image" class="content-image">
 
             <div class="actual-description">
                 <p class="actual-description__header">Architecture</p>
@@ -102,14 +123,14 @@
         </section>
 
         <!--! Latest  -->
-        <section class="latest__container">
+        <section class="latest__container" id="latest">
             <h5 class="latest-header">LATEST POSTS</h5>
 
             <div class="latest-wrapper" id="" data-count="">
 
                 <div class="latest-wrapper__content" id="" data-count="">
-                     <a href="" class="latest-wrapper__content-link">
-                        <img src="img/IMAGE.png" alt="image" class="latest__content-image">
+                     <a href="#" class="latest-wrapper__content-link">
+                        <img src="img/image.webp" alt="image" class="latest__content-image">
 
                         <div class="latest__content-description">
                             <p class="latest__content-description__header">Illustration</p>
@@ -121,7 +142,7 @@
 
                 <div  class="latest-wrapper__content" id="" data-count="">
                      <a href="" class="latest-wrapper__content-link">
-                        <img src="img/IMAGE (1).png" alt="image" class="latest__content-image">
+                        <img src="img/image-1.webp" alt="image" class="latest__content-image">
 
                         <div class="latest__content-description">
                             <p class="latest__content-description__header">Photography</p>
@@ -132,8 +153,8 @@
                 </div>
 
                 <div  class="latest-wrapper__content" id="" data-count="">
-                     <a href="" class="latest-wrapper__content-link">
-                        <img src="img/IMAGE (2).png" alt="image" class="latest__content-image">
+                     <a href="#" class="latest-wrapper__content-link">
+                        <img src="img/image-2.webp" alt="image" class="latest__content-image">
 
                         <div class="latest__content-description">
                             <p class="latest__content-description__header">Photography</p>
@@ -144,8 +165,8 @@
                 </div>
                 
                 <div class="latest-wrapper__content" id="" data-count="">
-                     <a href="" class="latest-wrapper__content-link">
-                        <img src="img/IMAGE (3).png" alt="image" class="latest__content-image">
+                     <a href="#" class="latest-wrapper__content-link">
+                        <img src="img/image-3.webp" alt="image" class="latest__content-image">
 
                         <div class="latest__content-description">
                             <p class="latest__content-description__header">Photography</p>
@@ -156,8 +177,8 @@
                 </div>
 
                 <div class="latest-wrapper__content" id="" data-count="">
-                     <a href="" class="latest-wrapper__content-link">
-                        <img src="img/IMAGE (4).png" alt="image" class="latest__content-image">
+                     <a href="#" class="latest-wrapper__content-link">
+                        <img src="img/image-4.webp" alt="image" class="latest__content-image">
 
                         <div class="latest__content-description">
                             <p class="latest__content-description__header">Interactive Design</p>
@@ -168,8 +189,8 @@
                 </div>
                    
                 <div  class="latest-wrapper__content" id="" data-count="">
-                     <a href="" class="latest-wrapper__content-link">
-                        <img src="img/IMAGE (5).png" alt="image" class="latest__content-image">
+                     <a href="#" class="latest-wrapper__content-link">
+                        <img src="img/image-5.webp" alt="image" class="latest__content-image">
 
                         <div class="latest__content-description">
                             <p class="latest__content-description__header">Graphic Design</p>
@@ -180,8 +201,8 @@
                 </div>
                    
                 <div  class="latest-wrapper__content">
-                    <a href="" class="latest-wrapper__content-link">
-                        <img src="img/IMAGE (6).png" alt="image" class="latest__content-image">
+                    <a href="#" class="latest-wrapper__content-link">
+                        <img src="img/image-6.webp" alt="image" class="latest__content-image">
 
                         <div class="latest__content-description">
                             <p class="latest__content-description__header">Architecture</p>
@@ -191,11 +212,11 @@
                     </a>
                 </div>
                    
-                <div href="#" class="latest-wrapper__content" id="" data-count="">
-                    <a href="" class="latest-wrapper__content-link">
+                <div  class="latest-wrapper__content" id="" data-count="">
+                    <a href="#" class="latest-wrapper__content-link">
 
                     </a>
-                    <img src="img/IMAGE(7).png" alt="image" class="latest__content-image">
+                    <img src="img/image-7.webp" alt="image" class="latest__content-image">
 
                     <div class="latest__content-description">
                         <p class="latest__content-description__header">Graphic Design</p>
@@ -204,9 +225,7 @@
                     </div>
                 </div>
             </div>
-
-            <button class="latest__button-add-content">view all latest posts</button>
-           
+            <a href="/content.html" class="link-content"><button class="latest__button-add-content">view all latest posts</button></a>
 
         </section>
 
@@ -217,8 +236,8 @@
             <div class="featured__content">
                 <div class="featured__content-top">
                     <div class="featured__content-wrapper">
-                        <a href="" class="featured__content-wrapper__link">
-                            <img src="img/Feature 1.png" alt="" class="featured__content-image">
+                        <a href="#" class="featured__content-wrapper__link">
+                            <img src="img/feature-1.webp" alt="" class="featured__content-image">
                             <p class="featured__content__header">Graphic Design</p>
                             <h2 class="featured__content__title">A Brief History of the FIFA World Cup Logo</h2>
                             <p class="featured__content__author">By Clem Onojeghuo</p>
@@ -226,8 +245,8 @@
                     </div>
     
                     <div class="featured__content-wrapper">
-                        <a href="" class="featured__content-wrapper__link">
-                            <img src="img/feature 2.png" alt="" class="featured__content-image">
+                        <a href="#" class="featured__content-wrapper__link">
+                            <img src="img/feature-2.webp" alt="" class="featured__content-image">
                             <p class="featured__content__header">Graphic Design</p>
                             <h2 class="featured__content__title">Need a guide to LA’s graphic design scene? Shoplifters’ new issue has got your back</h2>
                             <p class="featured__content__author">By Alessandra Ortiz</p>
@@ -237,8 +256,8 @@
                 
                 <div class="featured__content-bottom">  
                     <div class="featured__content-wrapper">
-                        <a href="" class="featured__content-wrapper__link">
-                            <img src="img/feature 3.png" alt="" class="featured__content-image">
+                        <a href="#" class="featured__content-wrapper__link">
+                            <img src="img/feature-3.webp" alt="" class="featured__content-image">
                             <p class="featured__content__header">Photography</p>
                             <h2 class="featured__content__title">Fred Rowson directs film for Years and Years</h2>
                             <p class="featured__content__author">By Coby Gottlieb</p>
@@ -246,8 +265,8 @@
                     </div>
 
                     <div class="featured__content-wrapper">
-                        <a href="" class="featured__content-wrapper__link">
-                            <img src="img/feature 4.png" alt="" class="featured__content-image">
+                        <a href="#" class="featured__content-wrapper__link">
+                            <img src="img/feature-4.webp" alt="" class="featured__content-image">
                             <p class="featured__content__header">Illustration</p>
                             <h2 class="featured__content__title">M&C Saatchi and Fontsmith collaborate on font collection for House of St Barnabas</h2>
                             <p class="featured__content__author">By Annie Lueilwitz</p>
@@ -338,6 +357,6 @@
         </div>
     </footer>
     <script src="https://unpkg.com/just-validate@latest/dist/just-validate.production.min.js"></script>
-    <script src="js/app.js"></script>
+    <script type="module" src="js/app.min.js"></script>
 </body>
 </html>

@@ -1,3 +1,6 @@
+"use strict"
+import {burgerMenu , smoothScroll} from "../modules/animation.js"
+import {views} from "../modules/post.js"
 window.JustValidate
 document.addEventListener("DOMContentLoaded", function(){
     const validator = new JustValidate(".footer-form",{
@@ -21,3 +24,4 @@ document.addEventListener("DOMContentLoaded", function(){
 
     // ! Механизировать создание статей
 })
+export default validator
